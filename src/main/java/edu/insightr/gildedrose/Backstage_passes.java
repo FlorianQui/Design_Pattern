@@ -14,17 +14,15 @@ public class Backstage_passes extends Item {
         if (getQuality() < 50) {
             setQuality(getQuality() + 1);
 
-            if (getName() == "Backstage passes to a TAFKAL80ETC concert") {
-                if (getSellIn() < 11) {
-                    if (getQuality() < 50) {
-                        setQuality(getQuality() + 1);
-                    }
+            if (getSellIn() < 11) {
+                if (getQuality() < 50) {
+                    setQuality(getQuality() + 1);
                 }
+            }
 
-                if (getSellIn() < 6) {
-                    if (getQuality() < 50) {
-                        setQuality(getQuality() + 1);
-                    }
+            if (getSellIn() < 6) {
+                if (getQuality() < 50) {
+                    setQuality(getQuality() + 1);
                 }
             }
         }

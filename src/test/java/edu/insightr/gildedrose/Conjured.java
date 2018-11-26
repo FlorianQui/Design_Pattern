@@ -19,4 +19,9 @@ public class Conjured {
         inventory.updateQuality();
         assertThat(itemConjured.getQuality(), is (4));
     }
+
+    @Test
+    public void updateQuality() {
+    }
+
 }

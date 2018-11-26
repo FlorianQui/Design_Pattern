@@ -8,4 +8,11 @@ public class Sulfuras extends Item {
         this.sellIn = sellIn;
         this.quality = quality;
     }
+
+    public void updateQuality()
+    {
+        if (getQuality() < 50) {
+            setQuality(getQuality() + 1);
+        }
+    }
 }

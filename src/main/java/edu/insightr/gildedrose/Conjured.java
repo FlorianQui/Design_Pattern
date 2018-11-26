@@ -1,6 +1,6 @@
 package edu.insightr.gildedrose;
 
-public class Conjured extends Item {
+public class Conjured extends Item{
     public Conjured(String name, int sellIn, int quality)
     {
         super();
@@ -11,9 +11,9 @@ public class Conjured extends Item {
 
     public void updateQuality()
     {
-        if(this.getQuality() < 50)
+        if(getQuality() < 50)
         {
-            this.setQuality(this.getQuality() - 2);
+            //setQuality(getQuality() - 2);
         }
     }
 }

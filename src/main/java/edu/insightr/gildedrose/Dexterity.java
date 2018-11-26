@@ -9,7 +9,7 @@ public class Dexterity extends Item {
         this.quality = quality;
     }
 
-    public void updateQuality(Dexterity dexterity)
+    public void updateQuality()
     {
 
     }

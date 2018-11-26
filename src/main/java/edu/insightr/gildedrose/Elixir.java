@@ -9,4 +9,9 @@ public class Elixir extends Item {
         this.sellIn = sellIn;
         this.quality = quality;
     }
+
+    public void updateQuality()
+    {
+
+    }
 }
