@@ -13,7 +13,7 @@ public class Conjured_Cake extends Item{
     {
         if(getQuality() < 50)
         {
-            //setQuality(getQuality() - 2);
+            setQuality(getQuality() - 2);
         }
     }
 }

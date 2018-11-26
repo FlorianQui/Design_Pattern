@@ -34,7 +34,12 @@ public class Inventory {
 
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
-            items[i].updateQuality();
+            if(items[i] instanceof Aged_Brie)  items[i].update((Aged_Brie) items[i]);
+            if(items[i] instanceof Backstage_passes)  items[i].update((Backstage_passes) items[i]);
+            if(items[i] instanceof Conjured_Cake)  items[i].update((Conjured_Cake) items[i]);
+            if(items[i] instanceof Dexterity)  items[i].update((Dexterity) items[i]);
+            if(items[i] instanceof Elixir)  items[i].update((Elixir) items[i]);
+            if(items[i] instanceof Sulfuras)  items[i].update((Sulfuras) items[i]);
         }
     }
 
