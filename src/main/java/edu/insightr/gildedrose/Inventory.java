@@ -1,5 +1,7 @@
 package edu.insightr.gildedrose;
 
+import edu.insightr.gildedrose.Classes.*;
+
 public class Inventory {
 
     private Item[] items;
@@ -17,7 +19,7 @@ public class Inventory {
                 new Elixir("Elixir of the Mongoose", 5, 7),
                 new Sulfuras("Sulfuras, Hand of Ragnaros", 0, 80),
                 new Backstage_passes("Backstage passes to a TAFKAL80ETC concert", 15, 20),
-                new Conjured("Conjured Mana Cake", 3, 6)
+                new Conjured_Cake("Conjured Mana Cake", 3, 6)
         };
     }
 
@@ -39,6 +41,7 @@ public class Inventory {
 
 
     public static void main(String[] args) {
+        System.out.println("ok");
         Inventory inventory = new Inventory();
         for (int i = 0; i < 10; i++) {
             inventory.updateQuality();

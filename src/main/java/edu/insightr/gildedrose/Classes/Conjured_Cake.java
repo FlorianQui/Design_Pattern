@@ -1,7 +1,7 @@
-package edu.insightr.gildedrose;
+package edu.insightr.gildedrose.Classes;
 
-public class Conjured extends Item{
-    public Conjured(String name, int sellIn, int quality)
+public class Conjured_Cake extends Item{
+    public Conjured_Cake(String name, int sellIn, int quality)
     {
         super();
         this.name = name;

@@ -1,4 +1,6 @@
-package edu.insightr.gildedrose;
+package edu.insightr.gildedrose.Classes;
+
+import edu.insightr.gildedrose.Interface.IUpdate;
 
 public abstract class Item implements IUpdate {
 

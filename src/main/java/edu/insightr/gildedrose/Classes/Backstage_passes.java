@@ -1,4 +1,4 @@
-package edu.insightr.gildedrose;
+package edu.insightr.gildedrose.Classes;
 
 public class Backstage_passes extends Item {
     public Backstage_passes(String name, int sellIn, int quality)
